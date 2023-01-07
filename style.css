@@ -166,9 +166,6 @@ nav{
     padding-left: 15px;
     padding-right: 15px;
 }
-/* .card-profile{
-    margin-top: 50px;
-} */
 .card-info{
     height: 750px;
 }
@@ -196,4 +193,7 @@ nav{
     align-items: center;
     position: relative;
     top: -90px;
+}
+footer{
+    border-top: 2px solid rgba(128, 128, 128, 0.219);
 }
