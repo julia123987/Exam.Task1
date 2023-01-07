@@ -10,11 +10,6 @@ header, main, footer {
       padding-left: 0px;
     }
 }
-@media (max-width:500px){
-    .xs12 .card{
-        width: 100% !important;
-    }
-}
 
 .w-100{
     width: 100%;
