@@ -13,7 +13,7 @@
 <main>
     <div class="row">
         <div class="col m3 l3">
-        <ul id="slide-out" class="sidenav sidenav-fixed">
+        <ul id="slide-out" class="sidenav sidenav-fixed show-on-medium-and-up">
             <li class="caption">Company</li>
             <li class="active pink accent-3"><a href="#!"><i class="material-icons">dashboard</i>Dashboard</a></li>
             <li><a href="#!"><i class="material-icons">person</i>User profile</a></li>
@@ -21,15 +21,16 @@
             <li><a href="#!"><i class="material-icons">done_all</i>Notifications</a></li>
             <li><a href="#!"><i class="material-icons">language</i>Support</a></li>
         </ul>
-          <a href="#" data-target="slide-out" class="sidenav-trigger grey-text"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger grey-text show-on-medium-and-down hide-on-large-only"><i class="material-icons medium">menu</i></a>
         </div>
-        <div class="col m8 l8">
+        <div class="col s12 m12 l12">
             <div class="row">
-                <div class="col s12 m11 l11">
-                    <h3>Dashboard</h3>
+                <div class="col s12 m12 l12">
+                    <h3 class="grey-text text-darken-2">Dashboard</h3>
                 </div>
+            </div>
                 <div class="row">
-                    <div class="col s6 m6 l3">
+                    <div class="col xs12 s6 m6 l3">
                     <div class="card">
                         <div class="card-content d-flex-between">
                           <span class="card-title title1"><img src="./icons/data_white.svg" alt=""></span>
@@ -45,7 +46,7 @@
                         </div>
                     </div>
                     </div>
-                    <div class="col s6 m6 l3">
+                    <div class="col xs12 s6 m6 l3">
                         <div class="card">
                             <div class="card-content d-flex-between">
                               <span class="card-title title2"><img src="./icons/shop_white.svg" alt=""></span>
@@ -56,26 +57,235 @@
                             </div>
                             <div class="card-footer">
                               <a class="grey-text" href="#">
-                                <span><i class="material-icons tiny grey-text text-darken-2">report_problem</i></span><span>Get more space...</span> 
+                                <span><i class="material-icons tiny grey-text text-darken-2">perm_contact_calendar</i></span><span>Last 25 Hours</span> 
                               </a>
                             </div>
+                            </div>
                         </div>
+                        <div class="col xs12 s6 m6 l3">
+                            <div class="card">
+                                <div class="card-content d-flex-between">
+                                  <span class="card-title title3"><img src="./icons/tag_white.svg" alt=""></span>
+                                  <div>
+                                    <p class="fs-1">Fixed Issues</p>
+                                    <p class="fs-2">75</p>
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                  <a class="grey-text" href="#">
+                                    <span><i class="material-icons tiny grey-text text-darken-2">file_download</i></span><span>Tracked from GitHub</span> 
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xs12 s6 m6 l3">
+                            <div class="card">
+                                <div class="card-content d-flex-between">
+                                  <span class="card-title title4"><img src="./icons/paperplane_white.svg" alt=""></span>
+                                  <div>
+                                    <p class="fs-1">Followers</p>
+                                    <p class="fs-2">+245</p>
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                  <a class="grey-text" href="#">
+                                    <span><i class="material-icons tiny grey-text text-darken-2">access_time</i></span><span>Just updated</span> 
+                                  </a>
+                                </div>
+                            </div>
                         </div>
                 </div>
-                
+                <div class="row">
+                    <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="card-content ">
+                            <span class="card-title title5"><img src="./icons/graphics.svg" alt=""></span>
+                            <div>
+                              <p class="fs-2">Daily Sales</p>
+                              <p class="fs-1">55% increase in today sales</p>
+                            </div>
+                          </div>
+                          <div class="card-footer">
+                            <a class="grey-text" href="#">
+                              <span><i class="material-icons tiny grey-text text-darken-2">access_time</i></span><span>updated 4 minutes ago</span> 
+                            </a>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-content ">
+                                <span class="card-title title6"><img src="./icons/graphics.svg" alt=""></span>
+                                <div>
+                                  <p class="fs-2">Email Subscriptions</p>
+                                  <p class="fs-1">Last Compain Performance</p>
+                                </div>
+                              </div>
+                              <div class="card-footer">
+                                <a class="grey-text" href="#">
+                                  <span><i class="material-icons tiny grey-text text-darken-2">access_time</i></span><span>compaign sent 2 days ago</span> 
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title title7"><img src="./icons/graphics.svg" alt=""></span>
+                                <div>
+                                  <p class="fs-2">Completed Tasks</p>
+                                  <p class="fs-1">Last Compain Performance</p>
+                                </div>
+                              </div>
+                              <div class="card-footer">
+                                <a class="grey-text" href="#">
+                                  <span><i class="material-icons tiny grey-text text-darken-2">access_time</i></span><span>compaign event 2 days ago</span> 
+                                </a>
+                              </div>
+                        </div>
+                    </div>     
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card">
+                            <div class="card-content">
+                                <nav>
+                                    <div class="d-flex">
+                                    <div><p class="fs-2">Tasks:</p></div>
+                                    <div class="d-flex">
+                                        <ul>
+                                           <li><a class="d-flex" href="#!"><i class="material-icons tiny">bug_report</i>Bugs</a></li> 
+                                           <li class="active"><a class="d-flex" href="#!"><i class="material-icons tiny">language</i>Website</a></li>
+                                           <li><a class="d-flex" href="#!"><i class="material-icons tiny">cloud</i>Server</a></li>  
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </nav>
+                                <table>
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                            <form action="#">
+                                                <p>
+                                                  <label>
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="grey-text text-darken-3">Sign contract for "What are conference organisers afraid of?"</span>
+                                                  </label>
+                                                </p>
+                                            </form></td>
+                                        <td><img src="./icons/edit.png" alt=""></td>
+                                        <td><img src="./icons/remove.png" alt=""></td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <form action="#">
+                                                <p>
+                                                    <label>
+                                                       <input type="checkbox">
+                                                       <span class="grey-text text-darken-3">Lines From Great Literature? Or E-mail From My Boss?</span>
+                                                    </label>
+                                                </p>
+                                            </form></td>
+                                        <td><img src="./icons/edit.png" alt=""></td>
+                                        <td><img src="./icons/remove.png" alt=""></td>
+                                       </tr>
+                                       <tr>
+                                         <td>
+                                            <form action="#">
+                                                <p>
+                                                    <label>
+                                                       <input type="checkbox">
+                                                       <span class="grey-text text-darken-3">Sign contract for "What are conference organisers afraid of?"</span>
+                                                    </label>
+                                                </p>
+                                            </form></td>
+                                        <td><img src="./icons/edit.png" alt=""></td>
+                                        <td><img src="./icons/remove.png" alt=""></td>
+                                       </tr>
+                                       <tr>
+                                        <td>
+                                           <form action="#">
+                                               <p>
+                                                   <label>
+                                                      <input type="checkbox" checked="checked">
+                                                      <span class="grey-text text-darken-3">Sign contract for "What are conference organisers afraid of?"</span>
+                                                   </label>
+                                               </p>
+                                           </form></td>
+                                       <td><img src="./icons/edit.png" alt=""></td>
+                                       <td><img src="./icons/remove.png" alt=""></td>
+                                      </tr> 
+                                    </tbody>
+                                  </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l6">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title title7"><p class="fs-2 white-text">Employees Stats</p><p class="fs-1 white-text">New employees on 19th September, 2019</p></span>
+                            <table>
+                                <thead class="teal-text">
+                                  <tr>
+                                      <th>ID</th>
+                                      <th>Name</th>
+                                      <th>Salary</th>
+                                      <th>Country</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Dakota Rice</td>
+                                    <td>$36.738</td>
+                                    <td>Niger</td>
+                                  </tr>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Dakota Rice</td>
+                                    <td>$36.738</td>
+                                    <td>Niger</td>
+                                  </tr>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Dakota Rice</td>
+                                    <td>$36.738</td>
+                                    <td>Niger</td>
+                                  </tr>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Dakota Rice</td>
+                                    <td>$36.738</td>
+                                    <td>Niger</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                    </div>
+                </div>
             </div>
-            
-
+            </div>
             </div>
         </div>
-        
-    
-    
-    </div>
 </main>
+<footer class="page-footer transparent">
+    <div>
+      <div class="row">
+        <div class="col s6 m6 l8">
+          <ul class="d-flex">
+            <li class="p-foot"><a class="grey-text text-darken-3" href="#!">ABOUT</a></li>
+            <li class="p-foot"><a class="grey-text text-darken-3" href="#!">BLOG</a></li>
+            <li class="p-foot"><a class="grey-text text-darken-3" href="#!">LICENSES</a></li>
+          </ul>
+        </div>
+        <div class="col s4 m4 l4">
+            <p class="grey-text text-darken-3">2019 - made with love</p>
+        </div>
+      </div>
+    </div>
     
     
 
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./nav.js"></script>
 </body>
